@@ -1,0 +1,7 @@
+在apache官网下载一个hadoop版本（推荐mirror镜像下载，速度快）
+解压到特定的文件夹，然后在github上寻找到对应的hadoop.dll文件下载解压替换掉hadoop下的bin文件夹
+设置环境变量HADOOP_HOME，指向自己安装的文件
+在PATH中添加对应的bin文件夹
+然后便可以打开一个项目进行操作了
+但是如果使用的是云服务器
+则还需要增加一些设置 https://blog.csdn.net/beishanyingluo/article/details/102655225
